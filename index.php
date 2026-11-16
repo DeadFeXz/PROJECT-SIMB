@@ -21,7 +21,7 @@ $berita = [
     'provinsi' => 'Aceh',
     'gambar' => 'assets/img/banjir_foto_1.png', 
     'ringkasan' => 'ringkasan',
-    'url' => 'detail.php'
+    'url' => 'https://nasional.kompas.com/read/2026/11/16/20124851/pulihkan-penghidupan-petani-pidie-jaya-tanami-lahan-bekas-banjir-dengan'
   ],
    [
     'judul' => 'Banjir Aceh Tamiang Meluas ke 81 Desa, 15.921 Jiwa Terdampak',
@@ -30,7 +30,7 @@ $berita = [
     'provinsi' => 'Aceh',
     'gambar' => 'assets/img/banjir_foto_2.png',
     'ringkasan' => 'ringkasan',
-    'url' => 'detail.php'
+    'url' => 'https://regional.kompas.com/read/2026/11/16/184557578/banjir-aceh-tamiang-meluas-ke-81-desa-15921-jiwa-terdampak'
   ],
    [
     'judul' => 'Sungai Cikalintu Meluap, Puluhan Rumah di Cipaganti Bandung Terendam Banjir',
@@ -39,7 +39,7 @@ $berita = [
     'provinsi' => 'Jawa Barat',
     'gambar' => 'assets/img/banjir_foto_3.png',
     'ringkasan' => 'ringkasan',
-    'url' => 'detail.php'
+    'url' => 'https://bandung.kompas.com/read/2026/11/16/182338578/sungai-cikalintu-meluap-puluhan-rumah-di-cipaganti-bandung-terendam-banjir'
   ],
 ];
 
