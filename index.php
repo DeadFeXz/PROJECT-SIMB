@@ -15,29 +15,29 @@ $sumber_stat = 'BNPB, BPBD, dan BPS';
 // Berita
 $berita = [
    [
-    'judul' => 'Judul',
-    'tanggal' => 'tanggal',
-    'sumber' => 'sumber',
-    'provinsi' => 'pronvinsi',
-    'gambar' => 'assets/img/',
+    'judul' => 'Pulihkan Kehidupan Petani, Pidie Jaya Tanami Lahan Bekas Banjir dengan Bawang Merah',
+    'tanggal' => '16 November 2026, 20:12 WIB',
+    'sumber' => 'Kompas.com',
+    'provinsi' => 'Aceh',
+    'gambar' => 'assets/img/banjir_foto_1.png', 
     'ringkasan' => 'ringkasan',
     'url' => 'detail.php'
   ],
    [
-    'judul' => 'Judul',
-    'tanggal' => 'tanggal',
-    'sumber' => 'sumber',
-    'provinsi' => 'pronvinsi',
-    'gambar' => 'assets/img/',
+    'judul' => 'Banjir Aceh Tamiang Meluas ke 81 Desa, 15.921 Jiwa Terdampak',
+    'tanggal' => '16 November 2026, 18:45 WIB',
+    'sumber' => 'Kompas.com',
+    'provinsi' => 'Aceh',
+    'gambar' => 'assets/img/banjir_foto_2.png',
     'ringkasan' => 'ringkasan',
     'url' => 'detail.php'
   ],
    [
-    'judul' => 'Judul',
-    'tanggal' => 'tanggal',
-    'sumber' => 'sumber',
-    'provinsi' => 'pronvinsi',
-    'gambar' => 'assets/img/',
+    'judul' => 'Sungai Cikalintu Meluap, Puluhan Rumah di Cipaganti Bandung Terendam Banjir',
+    'tanggal' => '16 November 2026, 18:23 WIB',
+    'sumber' => 'Kompas.com',
+    'provinsi' => 'Jawa Barat',
+    'gambar' => 'assets/img/banjir_foto_3.png',
     'ringkasan' => 'ringkasan',
     'url' => 'detail.php'
   ],
@@ -593,10 +593,6 @@ $topik = [
       border-bottom-color: #CFE0EE;
     }
 
-    
-    
-   
-
     /* =========================================
        DETAIL TOPIK
        ========================================= */
@@ -770,7 +766,7 @@ $topik = [
       font-weight: 700; 
       letter-spacing: 1px; 
       text-transform: uppercase; 
-      color: #A5C9E5; /* Teks judul kolom lebih terang */
+      color: #A5C9E5;
       margin-bottom: 14px; 
     }
     
@@ -784,7 +780,7 @@ $topik = [
     .footer-desc { 
       font-size: 13px; 
       line-height: 1.7; 
-      color: #E0F0FA; /* Teks deskripsi lebih terang */
+      color: #E0F0FA;
       margin-bottom: 16px; 
     }
     
@@ -800,7 +796,7 @@ $topik = [
       flex-direction: column; 
       gap: 10px; 
       font-size: 14px; 
-      color: #E0F0FA; /* Tautan lebih terang */
+      color: #E0F0FA;
     }
     
     .footer-links a:hover { 
@@ -809,14 +805,14 @@ $topik = [
     }
     
     .footer-bottom { 
-      border-top: 1px solid rgba(255,255,255,.2); /* Garis batas lebih terang */
+      border-top: 1px solid rgba(255,255,255,.2);
       padding-top: 20px; 
       display: flex; 
       justify-content: space-between; 
       gap: 12px; 
       flex-wrap: wrap; 
       font-size: 12px; 
-      color: #A5C9E5; /* Teks copyright lebih terang */
+      color: #A5C9E5;
       max-width: 1160px; 
       margin: 0 auto; 
       padding-left: 40px; 
@@ -1132,7 +1128,11 @@ $topik = [
                 <?php if ($b['gambar']): ?><img src="<?= e($b['gambar']) ?>" alt="" loading="lazy"><?php else: ?>Foto berita<?php endif; ?>
               </div>
               <div class="news-body">
-                <div class="label"><?= e($b['tanggal']) ?> · <?= e($b['sumber']) ?></div>
+                <div class="label">
+                  <?= e($b['tanggal']) ?>
+                  <?= !empty($b['sumber'])   ? ' · ' . e($b['sumber'])   : '' ?>
+                  <?= !empty($b['provinsi']) ? ' · ' . e($b['provinsi']) : '' ?>
+                </div>
                 <h3><?= e($b['judul']) ?></h3>
               </div>
             </a>
