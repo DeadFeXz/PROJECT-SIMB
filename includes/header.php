@@ -5,6 +5,7 @@ $menu = [
   'index.php' => 'Beranda',
   'peta.php'  => 'Peta Wilayah',
   'berita.php' => 'Berita',
+  'orang-hilang.php' => 'Orang Hilang',
 ];
 ?>
 
