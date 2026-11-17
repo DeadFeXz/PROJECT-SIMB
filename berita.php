@@ -8,114 +8,114 @@ $judul_halaman = "Berita Banjir Terkini";
 $berita_data = [
   // Berita Utama (Otomatis masuk ke kotak besar paling atas)
   [
-    'judul' => 'Judul',
-    'tanggal' => 'tanggal',
-    'sumber' => 'sumber',
-    'provinsi' => 'pronvinsi',
-    'gambar' => 'assets/img/',
-    'ringkasan' => 'ringkasan',
-    'url' => 'detail.php'
+    'judul'     => 'Jabar Siaga Bencana hingga April 2027, Banjir-Longsor Mengintai 27 Daerah',
+    'tanggal'   => '17 November 2026',
+    'sumber'    => 'detikJabar',
+    'provinsi'  => 'Jawa Barat',
+    'gambar'    => 'assets/img/siaga-banjir-jabar.jpg',
+    'ringkasan' => 'Pemerintah Provinsi Jawa Barat menetapkan status siaga darurat bencana hidrometeorologi (banjir, banjir bandang, longsor, dan cuaca ekstrem) di seluruh 27 kabupaten/kota mulai 1 November 2026 hingga 30 April 2027.',
+    'url'       => 'https://www.detik.com/jabar/berita/d-8756420/jabar-siaga-bencana-hingga-april-2027-banjir-longsor-mengintai-27-daerah'
   ],
+
   // Berita Sidebar (4 berita teratas di sebelah kanan)
   [
-    'judul' => 'Judul',
-    'tanggal' => 'tanggal',
-    'sumber' => 'sumber',
-    'provinsi' => 'pronvinsi',
-    'gambar' => 'assets/img/',
-    'ringkasan' => 'ringkasan',
-    'url' => 'detail.php'
+    'judul'     => 'Banjir Rob Mengintai Pesisir Jakarta hingga 15 November',
+    'tanggal'   => '13 November 2026',
+    'sumber'    => 'detikNews',
+    'provinsi'  => 'DKI Jakarta',
+    'gambar'    => 'assets/img/banjir-rob-jakarta.jpg',
+    'ringkasan' => 'BPBD DKI Jakarta mengeluarkan peringatan dini potensi banjir rob di 11 kelurahan wilayah Jakarta Utara dan seluruh Kepulauan Seribu akibat fenomena pasang maksimum air laut.',
+    'url'       => 'https://news.detik.com/foto-news/d-8750685/banjir-rob-mengintai-pesisir-jakarta-hingga-15-november'
   ],
   [
-    'judul' => 'Judul',
-    'tanggal' => 'tanggal',
-    'sumber' => 'sumber',
-    'provinsi' => 'pronvinsi',
-    'gambar' => 'assets/img/',
-    'ringkasan' => 'ringkasan',
-    'url' => 'detail.php'
+    'judul'     => 'Hujan Deras Sebabkan Sungai Karanganyar Meluap, Jalan Nasional Gombong-Kebumen Tergenang',
+    'tanggal'   => '17 November 2026',
+    'sumber'    => 'Kompas.com',
+    'provinsi'  => 'Jawa Tengah',
+    'gambar'    => 'assets/img/banjir-kebumen-jateng.jpg',
+    'ringkasan' => 'Hujan deras yang mengguyur Kabupaten Kebumen, Jawa Tengah, menyebabkan Sungai Karanganyar meluap dan menggenangi jalan nasional penghubung Gombong-Kebumen.',
+    'url'       => 'https://regional.kompas.com/read/2026/11/17/070021278/hujan-deras-sebabkan-sungai-karanganyar-meluap-jalan-nasional-gombong'
   ],
   [
-    'judul' => 'Judul',
-    'tanggal' => 'tanggal',
-    'sumber' => 'sumber',
-    'provinsi' => 'pronvinsi',
-    'gambar' => 'assets/img/',
-    'ringkasan' => 'ringkasan',
-    'url' => 'detail.php'
+    'judul'     => 'Banjir dan Longsor Terjang Enam Kabupaten di Jatim, Lumajang Terparah',
+    'tanggal'   => '3 November 2026',
+    'sumber'    => 'Suara Surabaya',
+    'provinsi'  => 'Jawa Timur',
+    'gambar'    => 'assets/img/banjir-enam-kabupaten-jatim.jpg',
+    'ringkasan' => 'BPBD Jawa Timur mencatat enam kabupaten dilanda bencana hidrometeorologi berupa banjir hingga tanah longsor akibat hujan berintensitas tinggi, dengan dampak terparah terjadi di Kabupaten Lumajang.',
+    'url'       => 'https://www.suarasurabaya.net/kelanakota/2026/banjir-dan-longsor-terjang-enam-kabupaten-di-jatim-lumajang-terparah/'
   ],
   [
-    'judul' => 'Judul',
-    'tanggal' => 'tanggal',
-    'sumber' => 'sumber',
-    'provinsi' => 'pronvinsi',
-    'gambar' => 'assets/img/',
-    'ringkasan' => 'ringkasan',
-    'url' => 'detail.php'
+    'judul'     => 'Pengerukan Sungai Cibanten Dimulai, Banjir dan Sedimentasi Karangantu Ditangani',
+    'tanggal'   => '17 November 2026',
+    'sumber'    => 'Pemprov Banten',
+    'provinsi'  => 'Banten',
+    'gambar'    => 'assets/img/pengerukan-sungai-cibanten.png',
+    'ringkasan' => 'Pengerukan Sungai Cibanten sepanjang 1,5 kilometer mulai dilakukan sebagai tindak lanjut penanganan banjir dan pendangkalan alur pelayaran di kawasan Karangantu, Banten.',
+    'url'       => 'https://bantenprov.go.id/index.php/video/pengerukan-sungai-cibanten-dimulai-banjir-dan-sedimentasi-karangantu-ditangani'
   ],
-  
- 
+
   // Berita Grid (6 berita di bagian bawah "Semua Berita")
   [
-    'judul' => 'Judul',
-    'tanggal' => 'tanggal',
-    'sumber' => 'sumber',
-    'provinsi' => 'pronvinsi',
-    'gambar' => 'assets/img/',
-    'ringkasan' => 'ringkasan',
-    'url' => 'detail.php'
+    'judul'     => 'BPBD Bantul Waspadai Banjir dan Longsor di 4 Kawasan, Musim Hujan Diprediksi Mulai Awal Desember 2026',
+    'tanggal'   => '17 November 2026',
+    'sumber'    => 'Jogja Monitor',
+    'provinsi'  => 'DI Yogyakarta',
+    'gambar'    => 'assets/img/waspada-banjir-bantul.jpg',
+    'ringkasan' => 'BPBD Kabupaten Bantul meningkatkan kewaspadaan terhadap potensi banjir dan tanah longsor di empat kawasan rawan menjelang awal musim hujan di wilayah Daerah Istimewa Yogyakarta.',
+    'url'       => 'https://jogjamonitor.com/detail/46650/bpbd-bantul-waspadai-banjir-dan-longsor-di-4-kawasan-musim-hujan-diprediksi-mulai-awal-desember-2026'
   ],
   [
-    'judul' => 'Judul',
-    'tanggal' => 'tanggal',
-    'sumber' => 'sumber',
-    'provinsi' => 'pronvinsi',
-    'gambar' => 'assets/img/',
-    'ringkasan' => 'ringkasan',
-    'url' => 'detail.php'
+    'judul'     => 'Banjir dan Longsor Terjang Banyumas, 13 Orang Terjebak dan 1 Warga Meninggal Dunia',
+    'tanggal'   => '15 November 2026',
+    'sumber'    => 'Kompas.com',
+    'provinsi'  => 'Jawa Tengah',
+    'gambar'    => 'assets/img/banjir-longsor-banyumas.jpg',
+    'ringkasan' => 'Bencana banjir dan delapan titik tanah longsor melanda sejumlah kecamatan di Kabupaten Banyumas, Jawa Tengah, akibat hujan deras yang mengguyur wilayah tersebut.',
+    'url'       => 'https://regional.kompas.com/read/2026/11/15/194639378/banjir-dan-longsor-terjang-banyumas-13-orang-terjebak-dan-1-warga-meninggal'
   ],
   [
-    'judul' => 'Judul',
-    'tanggal' => 'tanggal',
-    'sumber' => 'sumber',
-    'provinsi' => 'pronvinsi',
-    'gambar' => 'assets/img/',
-    'ringkasan' => 'ringkasan',
-    'url' => 'detail.php'
+    'judul'     => 'Hujan Angin, 6 Titik di Kota Sukabumi Dilanda Banjir Limpasan hingga Pohon Tumbang',
+    'tanggal'   => '10 November 2026',
+    'sumber'    => 'Sukabumi Update',
+    'provinsi'  => 'Jawa Barat',
+    'gambar'    => 'assets/img/banjir-limpasan-sukabumi.jpg',
+    'ringkasan' => 'Hujan deras disertai angin kencang memicu banjir limpasan di enam titik wilayah Kota Sukabumi sekaligus menyebabkan sejumlah pohon tumbang.',
+    'url'       => 'https://www.sukabumiupdate.com/sukabumi/183366/hujan-angin-6-titik-di-kota-sukabumi-dilanda-banjir-limpasan-hingga-pohon-tumbang'
   ],
   [
-    'judul' => 'Judul',
-    'tanggal' => 'tanggal',
-    'sumber' => 'sumber',
-    'provinsi' => 'pronvinsi',
-    'gambar' => 'assets/img/',
-    'ringkasan' => 'ringkasan',
-    'url' => 'detail.php'
+    'judul'     => 'Gubernur DKI Instruksikan Percepatan Penanganan Banjir dan Pembenahan Fasilitas Publik di Duren Sawit',
+    'tanggal'   => '16 November 2026',
+    'sumber'    => 'Pemkot Jakarta Timur',
+    'provinsi'  => 'DKI Jakarta',
+    'gambar'    => 'assets/img/penanganan-banjir-duren-sawit.jpg',
+    'ringkasan' => 'Gubernur DKI Jakarta menginstruksikan percepatan penanganan banjir serta pembenahan infrastruktur dan fasilitas publik di kawasan Duren Sawit, Jakarta Timur.',
+    'url'       => 'https://timur.jakarta.go.id/berita/18638/gubernur-dki-instruksikan-percepatan-penanganan-banjir-dan-pembenahan-fasilitas-publik-di-duren-sawit'
   ],
   [
-    'judul' => 'Judul',
-    'tanggal' => 'tanggal',
-    'sumber' => 'sumber',
-    'provinsi' => 'pronvinsi',
-    'gambar' => 'assets/img/',
-    'ringkasan' => 'ringkasan',
-    'url' => 'detail.php'
+    'judul'     => 'BMKG Keluarkan Peringatan Dini Hujan Lebat di Banten hingga 16 November, Ini Daftar Wilayahnya',
+    'tanggal'   => '14 November 2026',
+    'sumber'    => 'Kompas.com',
+    'provinsi'  => 'Banten',
+    'gambar'    => 'assets/img/peringatan-banjir-banten.jpg',
+    'ringkasan' => 'BMKG mengeluarkan peringatan dini cuaca ekstrem berstatus waspada hujan lebat di Kabupaten Lebak, Pandeglang, Serang, dan Tangerang guna mengantisipasi potensi banjir dan banjir bandang.',
+    'url'       => 'https://regional.kompas.com/read/2026/11/14/214138978/bmkg-keluarkan-peringatan-dini-hujan-lebat-di-banten-hingga-16-november-ini'
   ],
   [
-   'judul' => 'Judul',
-    'tanggal' => 'tanggal',
-    'sumber' => 'sumber',
-    'provinsi' => 'pronvinsi',
-    'gambar' => 'assets/img/',
-    'ringkasan' => 'ringkasan',
-    'url' => 'detail.php'
+    'judul'     => 'Banjir Lahar Gunung Semeru, 3 Kecamatan di Lumajang Terdampak',
+    'tanggal'   => '2 November 2026',
+    'sumber'    => 'detikNews',
+    'provinsi'  => 'Jawa Timur',
+    'gambar'    => 'assets/img/banjir-lahar-lumajang.jpg',
+    'ringkasan' => 'Banjir lahar Gunung Semeru menerjang tiga kecamatan di Kabupaten Lumajang setelah hujan deras mengguyur kawasan hulu dan memicu luapan aliran sungai.',
+    'url'       => 'https://news.detik.com/berita/d-8734312/banjir-lahar-gunung-semeru-3-kecamatan-di-lumajang-terdampak'
   ],
 ];
 
 // Memisahkan Data
 $berita_utama = $berita_data[0]; // Berita paling atas
 $berita_sidebar = array_slice($berita_data, 1, 4); // 4 berita untuk sidebar
-$berita_grid = array_slice($berita_data, 5); // Sisanya masuk ke grid bawah
+$berita_grid = $berita_data; // Sisanya masuk ke grid bawah
 ?>
 <!DOCTYPE html>
 <html lang="id">
@@ -368,7 +368,7 @@ $berita_grid = array_slice($berita_data, 5); // Sisanya masuk ke grid bawah
     </div>
 
     <!-- Semua Berita -->
-    <div class="section-header-news">
+    <!-- <div class="section-header-news">
       <h2>Semua Berita</h2>
       <div class="filter-group">
         <label for="filter-provinsi">Provinsi</label>
@@ -379,41 +379,42 @@ $berita_grid = array_slice($berita_data, 5); // Sisanya masuk ke grid bawah
           <option>Jawa Barat</option>
           <option>Jawa Tengah</option>
           <option>Jawa Timur</option>
+          <option>DI Yogyakarta</option>
         </select>
         <label for="filter-cari" style="margin-left: 8px;">Cari</label>
         <input type="text" id="filter-cari" class="filter-input" placeholder="Kata kunci berita">
       </div>
-    </div>
+    </div> -->
 
     <!-- Grid Berita -->
     <div class="news-grid">
       <?php foreach($berita_grid as $grid): ?>
-      <article class="news-card">
+      <a href="<?= htmlspecialchars($grid['url']) ?>" target="_blank" rel="noopener noreferrer" class="news-card">
         <div class="news-card-image">
           <?php if($grid['gambar']): ?>
-            <img src="<?= $grid['gambar'] ?>" alt="<?= $grid['judul'] ?>">
+            <img src="<?= htmlspecialchars($grid['gambar']) ?>" alt="<?= htmlspecialchars($grid['judul']) ?>">
           <?php else: ?>
             [Foto berita]
           <?php endif; ?>
         </div>
         <div class="news-card-content">
-          <span class="badge-provinsi" style="align-self: flex-start;"><?= $grid['provinsi'] ?></span>
-          <h3 class="news-card-title"><?= $grid['judul'] ?></h3>
-          <div class="news-card-meta"><?= $grid['sumber'] ?> &middot; <?= $grid['tanggal'] ?></div>
-          <p class="news-card-excerpt"><?= $grid['ringkasan'] ?></p>
+          <span class="badge-provinsi" style="align-self: flex-start;"><?= htmlspecialchars($grid['provinsi']) ?></span>
+          <h3 class="news-card-title"><?= htmlspecialchars($grid['judul']) ?></h3>
+          <div class="news-card-meta"><?= htmlspecialchars($grid['sumber']) ?> &middot; <?= htmlspecialchars($grid['tanggal']) ?></div>
+          <p class="news-card-excerpt"><?= htmlspecialchars($grid['ringkasan']) ?></p>
         </div>
-      </article>
+      </a>
       <?php endforeach; ?>
     </div>
 
     <!-- Pagination -->
-    <div class="pagination">
+    <!-- <div class="pagination">
       <button class="page-btn disabled">Sebelumnya</button>
       <button class="page-btn active">1</button>
       <button class="page-btn">2</button>
       <button class="page-btn">3</button>
       <button class="page-btn">Berikutnya</button>
-    </div>
+    </div> -->
 
   </div>
 
