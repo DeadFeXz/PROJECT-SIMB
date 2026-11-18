@@ -15,22 +15,22 @@ $sumber_stat = 'BNPB, BPBD, dan BPS';
 // Berita
 $berita = [
    [
-    'judul' => 'Pulihkan Kehidupan Petani, Pidie Jaya Tanami Lahan Bekas Banjir dengan Bawang Merah',
-    'tanggal' => '16 November 2026, 20:12 WIB',
-    'sumber' => 'Kompas.com',
-    'provinsi' => 'Aceh',
-    'gambar' => 'assets/img/banjir_foto_1.png', 
-    'ringkasan' => 'ringkasan',
-    'url' => 'https://nasional.kompas.com/read/2026/11/16/20124851/pulihkan-penghidupan-petani-pidie-jaya-tanami-lahan-bekas-banjir-dengan'
+    'judul'     => 'Banjir dan Longsor Terjang Enam Kabupaten di Jatim, Lumajang Terparah',
+    'tanggal'   => '3 November 2026',
+    'sumber'    => 'Suara Surabaya',
+    'provinsi'  => 'Jawa Timur',
+    'gambar'    => 'assets/img/banjir-enam-kabupaten-jatim.jpg',
+    'ringkasan' => 'BPBD Jawa Timur mencatat enam kabupaten dilanda bencana hidrometeorologi berupa banjir hingga tanah longsor akibat hujan berintensitas tinggi, dengan dampak terparah terjadi di Kabupaten Lumajang.',
+    'url'       => 'https://www.suarasurabaya.net/kelanakota/2026/banjir-dan-longsor-terjang-enam-kabupaten-di-jatim-lumajang-terparah/'
   ],
    [
-    'judul' => 'Banjir Aceh Tamiang Meluas ke 81 Desa, 15.921 Jiwa Terdampak',
-    'tanggal' => '16 November 2026, 18:45 WIB',
-    'sumber' => 'Kompas.com',
-    'provinsi' => 'Aceh',
-    'gambar' => 'assets/img/banjir_foto_2.png',
-    'ringkasan' => 'ringkasan',
-    'url' => 'https://regional.kompas.com/read/2026/11/16/184557578/banjir-aceh-tamiang-meluas-ke-81-desa-15921-jiwa-terdampak'
+    'BPBD Bantul Waspadai Banjir dan Longsor di 4 Kawasan, Musim Hujan Diprediksi Mulai Awal Desember 2026',
+    'tanggal'   => '17 November 2026',
+    'sumber'    => 'Jogja Monitor',
+    'provinsi'  => 'DI Yogyakarta',
+    'gambar'    => 'assets/img/waspada-banjir-bantul.jpg',
+    'ringkasan' => 'BPBD Kabupaten Bantul meningkatkan kewaspadaan terhadap potensi banjir dan tanah longsor di empat kawasan rawan menjelang awal musim hujan di wilayah Daerah Istimewa Yogyakarta.',
+    'url'       => 'https://jogjamonitor.com/detail/46650/bpbd-bantul-waspadai-banjir-dan-longsor-di-4-kawasan-musim-hujan-diprediksi-mulai-awal-desember-2026'
   ],
    [
     'judul' => 'Sungai Cikalintu Meluap, Puluhan Rumah di Cipaganti Bandung Terendam Banjir',
@@ -1118,7 +1118,7 @@ $topik = [
     <section class="news">
       <div class="wrap">
         <div class="news-head">
-          <h2>Berita banjir seluruh Indonesia</h2>
+          <h2>Berita banjir di Pulau Jawa</h2>
           <a href="berita.php">Lihat semua berita</a>
         </div>
         <div class="grid">

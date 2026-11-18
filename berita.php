@@ -2,9 +2,6 @@
 // berita.php
 $judul_halaman = "Berita Banjir Terkini";
 
-// ==========================================
-// DATA BERITA (EDIT DI SINI SAJA)
-// ==========================================
 $berita_data = [
   // Berita Utama (Otomatis masuk ke kotak besar paling atas)
   [
